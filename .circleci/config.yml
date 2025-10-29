@@ -48,17 +48,17 @@ jobs:
           name: Build docs
           environment:
             # Ensure this is same as store_artifacts path below
-            DOCS_PATH: docs/_build/html
+            DOCS_PATH: _build/html
           command: |
             export BASE_URL="/output/job/$CIRCLE_WORKFLOW_JOB_ID/artifacts/0/$DOCS_PATH"
 
-            (cd docs && npx myst build --html)
+            (npx myst build --html)
 
             ## Temporary hack to remove unused thebe JS
-            rm docs/_build/html/*thebe*.js
+            rm _build/html/*thebe*.js
 
       - store_artifacts:
-          path: docs/_build/html
+          path: _build/html
 
 workflows:
   version: 2
