@@ -1,0 +1,67 @@
+# See: https://circleci.com/docs/2.0/language-python/
+
+version: 2.1
+
+jobs:
+  build-docs:
+    docker:
+      - image: cimg/python:3.13
+    steps:
+      - checkout
+
+      - restore_cache:
+          keys:
+            - node-cache-v1
+
+      - restore_cache:
+          keys:
+            - pip-cache-{{ checksum "requirements.txt" }}
+
+      - run:
+          name: Install Node.js
+          command: |
+            curl -fsSL https://deb.nodesource.com/setup_24.x | sudo -E bash -
+            sudo apt-get install -y nodejs
+
+      - run:
+          name: Install mystmd
+          command: |
+            npm install mystmd
+
+      - run:
+          name: Install Python dependencies
+          command: |
+            python -m pip install --upgrade pip
+            if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+
+      - save_cache:
+          key: node-cache-v1
+          paths:
+            - node_modules
+
+      - save_cache:
+          key: pip-cache-{{ checksum "requirements.txt" }}
+          paths:
+            - ~/.cache/pip
+
+      - run:
+          name: Build docs
+          environment:
+            # Ensure this is same as store_artifacts path below
+            DOCS_PATH: docs/_build/html
+          command: |
+            export BASE_URL="/output/job/$CIRCLE_WORKFLOW_JOB_ID/artifacts/0/$DOCS_PATH"
+
+            (cd docs && npx myst build --html)
+
+            ## Temporary hack to remove unused thebe JS
+            rm docs/_build/html/*thebe*.js
+
+      - store_artifacts:
+          path: docs/_build/html
+
+workflows:
+  version: 2
+  build-and-docs:
+    jobs:
+      - build-docs
