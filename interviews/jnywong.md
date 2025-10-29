@@ -2,7 +2,7 @@
 authors: 
 - name: ""
 #    github: GitHubID
-# - name: Fiona
+- name: Fiona
 #    github: GitHubID
 # - name: Hazel
 #    github: GitHubID
