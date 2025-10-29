@@ -2,7 +2,7 @@
 
 *Telling the stories of the people powering scientific open source software*
 
-In this Jupyter Book - hosted on GitHub pages at [https://bids.github.io/people-scientific-oss](https://bids.github.io/people-scientific-oss/) - you'll find - and contribute to - a collection of stories highlighting the people of scientific open source software.
+In this [Jupyter Book](https://next.jupyterbook.org) - hosted on GitHub pages at [https://bids.github.io/people-scientific-oss](https://bids.github.io/people-scientific-oss/) - you'll find and contribute to - a collection of stories highlighting the people of scientific open source software.
 
 Explore them by navigating through the list on the left side of this page 👈
 
@@ -30,3 +30,15 @@ Our collaborative interview process was designed to give the undergraduates a fe
 - **Collaboration**: can you work well with one of your peers, with BIDS staff and researchers, and with open source communities?
 - **Curiosity**: can you understand scientific open source work, and ask clarifying questions?
 - **Communication**: can you capture personal and research impact stories in person and online, synchronously and asynchronously (for example through pull requests on GitHub)?
+
+## Acknowlegements
+
+This book is a [Jupyter Book](https://next.jupyterbook.org/), powered by the [MyST markdown](https://mystmd.org/) document engine: <https://doi.org/10.5281/ZENODO.14805610>
+
+If you use this tool, please consider citing the team's overview publication [Jupyter Book 2 and the MyST Document Stack](https://doi.org/10.25080/hwcj9957), part of the [2025 SciPy Proceedings](https://proceedings.scipy.org/)
+
+Thank you to the Scientific Python community for their [GitHub Action to add a GitHub status link to a CircleCI artifact](https://github.com/scientific-python/circleci-artifacts-redirector-action), which allows us to [review rendered content](https://github.com/stefanv/myst-preview) in pull requests.
+
+## License
+
+All content is made available under the permissive [2-Clause BSD](https://opensource.org/license/bsd-2-clause) open source license. 
