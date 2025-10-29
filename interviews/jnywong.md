@@ -1,11 +1,8 @@
 ---
 authors: 
-- name: ""
 #    github: GitHubID
-- name: Fiona
-#    github: GitHubID
-# - name: Hazel
-#    github: GitHubID
+  - name: Fiona
+  - name: Hazel
 ---
 
 # Jenny Wong
