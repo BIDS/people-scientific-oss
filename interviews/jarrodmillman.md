@@ -1,6 +1,7 @@
 ---
 authors: 
-- name: ""
+- name: "Mia"
+- name: "Ankita"
 #    github: GitHubID
 # - name: Test Name 2
 #    github: GitHubID
@@ -16,7 +17,6 @@ authors:
 
 Here's a figure if you'd like to keep it or change it!
 :::
-Mia Salinas and Ankita Biyani 
 October 29, 2025
 
                 Learning about BIDS impact and Jarrod Millman's contributions to the Scientific Python Project
