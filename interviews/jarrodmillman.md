@@ -1,3 +1,13 @@
+---
+authors: 
+- name: ""
+#    github: GitHubID
+# - name: Test Name 2
+#    github: GitHubID
+# - name: Test Name 3
+#    github: GitHubID
+---
+
 # Jarrod Millman
 
 :::{figure} https://github.com/jarrodmillman.png
