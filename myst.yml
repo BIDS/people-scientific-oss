@@ -7,8 +7,8 @@ project:
   # keywords: []
   authors: 
     - name: Kirstie Whitaker
-      - orcid: 0000-0001-8498-4059
-      - github: KirstieJane
+      orcid: 0000-0001-8498-4059
+      github: KirstieJane
   github: https://github.com/BIDS/people-scientific-oss
   # To autogenerate a Table of Contents, run "jupyter book init --write-toc"
   toc:
