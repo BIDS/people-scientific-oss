@@ -2,7 +2,7 @@
 
 *Telling the stories of the people powering scientific open source software*
 
-In this Jupyter Book you'll find - and contribute to - a collection of stories highlighting the people of scientific open source software.
+In this Jupyter Book - hosted on GitHub pages at [https://bids.github.io/people-scientific-oss](https://bids.github.io/people-scientific-oss/) - you'll find - and contribute to - a collection of stories highlighting the people of scientific open source software.
 
 Explore them by navigating through the list on the left side of this page 👈
 
