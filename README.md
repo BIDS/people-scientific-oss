@@ -30,6 +30,7 @@ Our collaborative interview process was designed to give the undergraduates a fe
 - **Collaboration**: can you work well with one of your peers, with BIDS staff and researchers, and with open source communities?
 - **Curiosity**: can you understand scientific open source work, and ask clarifying questions?
 - **Communication**: can you capture personal and research impact stories in person and online, synchronously and asynchronously (for example through pull requests on GitHub)?
+:::
 
 ## Acknowlegements
 
