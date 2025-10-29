@@ -1,3 +1,13 @@
+---
+authors: 
+- name: ""
+#    github: GitHubID
+# - name: Test Name 2
+#    github: GitHubID
+# - name: Test Name 3
+#    github: GitHubID
+---
+
 # Brigitta Sipőcz
 
 :::{figure} https://github.com/bsipocz.png

@@ -1,3 +1,13 @@
+---
+authors: 
+- name: ""
+#    github: GitHubID
+# - name: Test Name 2
+#    github: GitHubID
+# - name: Test Name 3
+#    github: GitHubID
+---
+
 # Jenny Wong
 
 :::{figure} https://github.com/jnywong.png

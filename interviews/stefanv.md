@@ -1,3 +1,13 @@
+---
+authors: 
+- name: ""
+#    github: GitHubID
+# - name: Test Name 2
+#    github: GitHubID
+# - name: Test Name 3
+#    github: GitHubID
+---
+
 # Stéfan van der Walt
 
 :::{figure} https://github.com/stefanv.png

@@ -1,3 +1,13 @@
+---
+authors: 
+- name: ""
+#    github: GitHubID
+# - name: Test Name 2
+#    github: GitHubID
+# - name: Test Name 3
+#    github: GitHubID
+---
+
 # Min Ragan-Kelley
 
 :::{figure} https://github.com/minrk.png
