@@ -16,6 +16,7 @@ authors: Elle Trinidad & Gyssell Perez
 
 As a software engineer at Google, Mihai Maurseau developed Tensorflow, an open source framework expanding the scope of machine learning’s accessibility. Through his efforts to simplify the computational process with neuron networks, he is opening the doors to anyone interested in pursuing machine learning regardless of their level. His belief: anybody can build something big, even if they start small. 
 
+
 What is Tensorflow? 
 
 Tensorflow is a platform to ease anyone into building their own machine learning project. Complete with tutorials, guides, and desktop extensions, Maurseau is providing users everything that is needed to dive straight in. 
@@ -23,6 +24,7 @@ Tensorflow is a platform to ease anyone into building their own machine learning
 Everything in machine learning can be boiled down to linear algebra, something most students know is quite the feat to take on. With Tensorflow, computations can be dispatched onto neural networks to take on pesky matrix arithmetic on behalf of users. Tensorflow can be used on the CPU itself to aggregate the data from neural networks and create varying layers. This way, users can easily identify patterns and utilize such insights within their project. While Tensorflow is a dense project given its over two million lines of code, Maruseau states that students are more than welcome to download the most useful parts of his project to meet their specific needs. 
 
 Maruseau’s project took over 20 hours to complete, but was able to be simplified into 2-3 hours with Google’s infrastructure. Tensorflow can be regularly maintained, despite its large size, with Google Collab. He promotes the notion of collaboration through the open-source platform, as it gives everyone a chance to feel like they can contribute in their own little way. 
+
 
 Maurseau’s Advice 
 
