@@ -1,8 +1,7 @@
 ---
-authors: Elle Trinidad & Gyssell Perez
-- name: "Mihai Maruseac Opening Machine Learning Doors with Tensorflow"
-#    github: GitHubID
-# - name: Test Name 2
+authors: 
+  - name: Elle Trinidad
+  - name: Gyssell Perez
 #    github: GitHubID
 # - name: Test Name 3
 #    github: GitHubID
@@ -13,6 +12,9 @@ authors: Elle Trinidad & Gyssell Perez
 :::{figure} https://github.com/mihaimaruseac.png
 :alt: Mihai's github profile picture
 :width: 300px
+:::
+
+# Mihai Maruseac Opening Machine Learning Doors with Tensorflow
 
 As a software engineer at Google, Mihai Maurseau developed Tensorflow, an open source framework expanding the scope of machine learning’s accessibility. Through his efforts to simplify the computational process with neuron networks, he is opening the doors to anyone interested in pursuing machine learning regardless of their level. His belief: anybody can build something big, even if they start small. 
 
